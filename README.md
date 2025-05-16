@@ -1,9 +1,15 @@
 # YuChengLinPortfolio
 
 ## [TaskManager](https://github.com/YuChengLin0110/Taskmanager)
-TaskManager 是一個簡單的任務管理系統，提供註冊、登入及任務管理功能。使用 Spring Boot 架構，並結合 JWT 驗證保護 API。
+TaskManager 是一個簡潔的任務管理系統，透過 Spring Boot、Spring Cloud Config、RabbitMQ、Redis 等技術
 
-TaskManager is a simple task management system that offers user registration, login, and task management features. It’s built with Spring Boot and uses JWT authentication to protect the API.
+實現分布式環境下的任務追蹤、狀態管理與非同步處理，並採用 Docker 容器化部署
+
+TaskManager is a simple task management system built with Spring Boot, Spring Cloud Config, RabbitMQ, and Redis.
+
+It helps track tasks, manage their status, and handle asynchronous processing in a distributed environment.
+
+The system is deployed using Docker containers for easy setup and scaling.
 
 ## [DS-Algorithms](https://github.com/YuChengLin0110/DS-Algorithms)
 這是我用來學習資料結構與演算法的專案，包含了 LinkedList、Graph、Tree 等資料結構與演算法的實作。

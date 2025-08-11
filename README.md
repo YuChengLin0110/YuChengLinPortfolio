@@ -1,11 +1,11 @@
 # YuChengLinPortfolio
 
 ## [TaskManager](https://github.com/YuChengLin0110/Taskmanager)
-TaskManager 是一個簡潔的任務管理系統，透過 Spring Boot、Spring Cloud Config、RabbitMQ、Redis 等技術
+TaskManager 是一個簡潔的任務管理系統，透過 Spring Boot、Spring Cloud Config、RabbitMQ、Kafka、Redis 等技術
 
 實現分布式環境下的任務追蹤、狀態管理與非同步處理，並採用 Docker 容器化部署
 
-TaskManager is a simple task management system built with Spring Boot, Spring Cloud Config, RabbitMQ, and Redis.
+TaskManager is a simple task management system built with Spring Boot, Spring Cloud Config, RabbitMQ, Kafka and Redis.
 
 It helps track tasks, manage their status, and handle asynchronous processing in a distributed environment.
 

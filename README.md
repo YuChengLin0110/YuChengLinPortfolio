@@ -1,15 +1,15 @@
 # YuChengLinPortfolio
 
 ## [TaskManager](https://github.com/YuChengLin0110/Taskmanager)
-TaskManager 是一個簡潔的任務管理系統，透過 Spring Boot、Spring Cloud Config、RabbitMQ、Kafka、Redis 等技術
+TaskManager 是一個簡潔的分布式任務管理系統，基於 Spring Boot，整合 Spring Cloud Config、RabbitMQ、Kafka、Redis 等技術
 
-實現分布式環境下的任務追蹤、狀態管理與非同步處理，並採用 Docker 容器化部署
+實現任務追蹤、狀態管理、非同步處理與通知機制，支援 JWT 認證、分布式鎖、批量 DB 操作及主從資料庫讀寫分離，並可透過 Docker 容器化部署
 
-TaskManager is a simple task management system built with Spring Boot, Spring Cloud Config, RabbitMQ, Kafka and Redis.
+TaskManager is a lightweight distributed task management system built with Spring Boot, integrating Spring Cloud Config, RabbitMQ, Kafka, Redis, and other technologies.
 
-It helps track tasks, manage their status, and handle asynchronous processing in a distributed environment.
+It provides task tracking, status management, asynchronous processing, and notification support, with JWT authentication, distributed locks, batch database operations, and master-slave database read/write separation. 
 
-The system is deployed using Docker containers for easy setup and scaling.
+It can also be deployed using Docker containers.
 
 ## [DS-Algorithms](https://github.com/YuChengLin0110/DS-Algorithms)
 這是我用來學習資料結構與演算法的專案，包含了 LinkedList、Graph、Tree 等資料結構與演算法的實作。

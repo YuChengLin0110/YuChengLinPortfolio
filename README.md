@@ -1,5 +1,18 @@
 # YuChengLinPortfolio
 
+## [AI-Integration-Service](https://github.com/YuChengLin0110/AI-Integration-Service)
+AI-Integration-Service 是一個可擴充的 RAG（Retrieval-Augmented Generation）與多模型 AI 整合，支援 OpenAI、Gemini 等 LLM
+
+透過文件上傳、切段、Embedding、向量檢索與語意問答等流程，提供知識檢索與智慧客服能力
+
+系統中的各個元件都透過 策略模式（Strategy Pattern）＋ 工廠模式（Factory Pattern） 管理，因此可以依需求自由替換向量庫、Embedding 模型或 LLM
+
+AI-Integration-Service is a flexible RAG (Retrieval-Augmented Generation) and multi-LLM integration platform.
+
+It supports models like OpenAI and Gemini, and lets you upload documents, chunk text, create embeddings, search vectors, and perform accurate Q&A.
+
+All core components use the Strategy Pattern + Factory Pattern, so you can easily swap the vector store, embedding model, or LLM provider based on your needs.
+
 ## [TaskManager](https://github.com/YuChengLin0110/Taskmanager)
 TaskManager 是一個簡潔的分布式任務管理系統，基於 Spring Boot，整合 Spring Cloud Config、RabbitMQ、Kafka、Redis 等技術
 

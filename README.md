@@ -5,7 +5,7 @@ AI-Integration-Service 是一個可擴充的 RAG（Retrieval-Augmented Generatio
 
 透過文件上傳、切段、Embedding、向量檢索與語意問答等流程，提供知識檢索與智慧客服能力
 
-系統中的各個元件都透過 策略模式（Strategy Pattern）＋ 工廠模式（Factory Pattern） 管理，因此可以依需求自由替換向量庫、Embedding 模型或 LLM
+系統中的各個元件都透過 策略模式（Strategy Pattern）＋ 工廠模式（Factory Pattern） 管理，可以依需求自由替換向量庫、Embedding 模型或 LLM
 
 AI-Integration-Service is a flexible RAG (Retrieval-Augmented Generation) and multi-LLM integration platform.
 
